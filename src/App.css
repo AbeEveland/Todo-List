@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+#container {
+  display: flex;
+  justify-content: flex;
+}
+.todoListMain {
+  border: 1px solid black;
+}
+.header {
+  border: 1px solid red;
+  width: 500px;
+}
