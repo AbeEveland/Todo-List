@@ -13,12 +13,7 @@ code {
 }
 
 body {
-  background-color: #61dafb;
+  background-color: #66ccf5;
   padding: 50px;
   font-family: sans-serif;
-}
-
-#container {
-  display: flex;
-  justify-content: flex;
 }
