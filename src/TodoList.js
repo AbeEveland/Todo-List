@@ -39,10 +39,13 @@ class TodoList extends Component {
       items: filteredItems,
     });
   }
+
   render() {
     return (
       <div className="todoListMain">
         <div className="header">
+          <h1>Create A List</h1>
+          <div className="headingBorder"></div>
           <form onSubmit={this.addItem}>
             <input
               ref={(a) => (this._inputElement = a)}
